@@ -44,10 +44,44 @@
     <ProductListing />
     <ProductListing />
   </section>
+
+  <section class="flex flex-col gap-4 w-full mt-4">
+    <div class="inline-flex items-center justify-between px-4">
+      <h2 class="text-sm text-zinc-800 font-bold">Top Deals for You</h2>
+      <button
+        type="button"
+        class="text-green-600 font-bold text-xs outline-none bg-transparent">
+        View More
+      </button>
+    </div>
+
+    <div class="px-2 w-full max-w-lg">
+      <div
+        class="bg-green-900 text-zinc-100 w-full rounded-3xl overflow-hidden px-4 py-6 relative">
+        <p class="text-lg font-semibold mb-6">$0 pickup and delivery</p>
+
+        <ul class="text-xs text-gray-50 relative z-10">
+          <li class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, sed.</li>
+          <li class="mb-2">
+            Autem quaerat corporis sapiente voluptate dolorem incidunt distinctio tempore
+            laborum?
+          </li>
+          <li class="mb-2">Magnam beatae cum minima aut at nihil delectus, veritatis earum!</li>
+          <li class="mb-2">
+            Eaque, aliquid quibusdam earum rem laborum commodi totam amet asperiores?
+          </li>
+        </ul>
+        <Icon
+          icon="map:grocery-or-supermarket"
+          height="128"
+          class="opacity-60 blur-sm text-green-600 fill-current absolute -right-8 top-1/3" />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
-import ProductListing from '../components/card/ProductListing.vue'
+  import ProductListing from '../components/card/ProductListing.vue';
 </script>
 
 <style scoped>
