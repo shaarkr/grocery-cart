@@ -37,9 +37,18 @@
       </li>
     </ul>
   </section>
+
+  <section class="flex flex-shrink-0 gap-1 w-full overflow-x-auto px-1 py-2">
+    <ProductListing />
+    <ProductListing />
+    <ProductListing />
+    <ProductListing />
+  </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ProductListing from '../components/card/ProductListing.vue'
+</script>
 
 <style scoped>
   .all {
