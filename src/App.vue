@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import AppHeader from './components/AppHeader.vue';
+</script>
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline text-slate-500">Hello world!</h1>
+    <AppHeader />
   </div>
 </template>
 
