@@ -6,7 +6,7 @@
 
       <button
         type="button"
-        class="flex items-center gap-1 text-md font-bold text-zinc-700 hover:cursor-pointer hover:text-zinc-900 focus:outline-none">
+        class="flex items-center gap-1 text-md font-bold text-zinc-700 hover:cursor-pointer transition duration-100 hover:text-zinc-900 focus:outline-none">
         <p>D-Mart Store</p>
         <Icon icon="solar:alt-arrow-down-line-duotone" height="12" />
       </button>
