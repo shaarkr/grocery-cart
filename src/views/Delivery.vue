@@ -16,22 +16,22 @@
         <span>All Categories</span>
       </li>
       <li
-        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition delay-100">
+        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition duration-100">
         <Icon icon="carbon:drink-02" height="16" />
         <span class="mt-px">Drinks</span>
       </li>
       <li
-        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition delay-100">
+        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition duration-100">
         <Icon icon="noto:shallow-pan-of-food" height="16" />
         <span class="mt-px">Fast Food</span>
       </li>
       <li
-        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition delay-100">
+        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition duration-100">
         <Icon icon="icon-park-twotone:vegetables" height="16" />
         <span class="mt-px">Vegetables</span>
       </li>
       <li
-        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition delay-100">
+        class="inline-flex flex-shrink-0 items-center justify-between gap-1 px-3 py-2 rounded-full text-xs font-medium text-zinc-900 text-center border border-gray-200 hover:bg-gray-200 hover:cursor-pointer transition duration-100">
         <Icon icon="ion:fast-food-outline" height="16" />
         <span class="mt-px">Snacks</span>
       </li>
@@ -60,21 +60,11 @@
         class="bg-green-900 text-zinc-100 w-full rounded-3xl overflow-hidden px-4 py-6 relative">
         <p class="text-lg font-semibold mb-6">$0 pickup and delivery</p>
 
-        <ul class="text-xs text-gray-50 relative z-10">
-          <li class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, sed.</li>
-          <li class="mb-2">
-            Autem quaerat corporis sapiente voluptate dolorem incidunt distinctio tempore
-            laborum?
-          </li>
-          <li class="mb-2">Magnam beatae cum minima aut at nihil delectus, veritatis earum!</li>
-          <li class="mb-2">
-            Eaque, aliquid quibusdam earum rem laborum commodi totam amet asperiores?
-          </li>
-        </ul>
+        <div class="h-32"></div>
         <Icon
           icon="map:grocery-or-supermarket"
           height="128"
-          class="opacity-60 blur-sm text-green-600 fill-current absolute -right-8 top-1/3" />
+          class="opacity-60 blur-sm text-green-600 fill-current absolute -z-10 -right-8 top-1/3" />
       </div>
     </div>
   </section>
