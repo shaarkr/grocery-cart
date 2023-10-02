@@ -270,14 +270,14 @@
 
   const filterEl = ref(null);
 
-  const filterOptions = ref(null);
+  const filterOptions = ref<any>(null);
 
   function applyFilters() {
     if (!filterEl.value) return;
 
     const formData = new FormData(filterEl.value);
 
-    let options = {};
+    let options: any = {};
     for (const [key, value] of formData.entries()) {
       options[key] = value;
     }
