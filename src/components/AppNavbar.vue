@@ -17,6 +17,7 @@
     <!-- Action -->
     <button
       type="button"
+      @click="$emit('filter')"
       class="relative inline-flex items-center p-1 text-sm font-medium text-center text-zinc-900 rounded-lg focus:ring-4 focus:outline-none focus:ring-primary-600">
       <Icon icon="solar:filters-line-duotone" height="16" />
       <span class="sr-only">Filter</span>
