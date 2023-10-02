@@ -1,5 +1,7 @@
 # Grocery Cart App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/337eea7f-0d68-473e-a0dd-7cdc38571993/deploy-status)](https://app.netlify.com/sites/grocery-cart-wm/deploys)
+
 ## Description
 
 This is a simple yet powerful grocery cart application built using Vue 3, TypeScript, and Tailwind CSS. It allows users to view recommended groceries, filter based on `Delviery Fee/Price Range/Categories`. Users can also add items to cart & manage their grocery shopping in a smooth way!
