@@ -1,18 +1,69 @@
-# Vue 3 + TypeScript + Vite
+# Grocery Cart App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
+
+This is a simple yet powerful grocery cart application built using Vue 3, TypeScript, and Tailwind CSS. It allows users to view recommended groceries, filter based on `Delviery Fee/Price Range/Categories`. Users can also add items to cart & manage their grocery shopping in a smooth way!
+
+## Technologies Used
+
+- **Vue 3**: A progressive JavaScript framework for building user interfaces.
+- **TypeScript**: A strongly typed superset of JavaScript that adds optional static types.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+
+## Features
+
+> [!NOTE]
+> **Project is Under Development**
+> UI + UX, 
+> Provides only basic functionalities
+
+- View list of recommended items.
+- Filter using a Halfsheet
+- Intuitive mobile app layout
+
+## More Features incoming!!
+
+- [ ] Shop from multiple stores
+- [ ] Search for specific product in the homepage
+- [ ] Allow users to view produyct details
+- [ ] Add a product to Wishlist
+- [ ] Update & Manage user profile
+- [ ] Schedule Pickups
+- [ ] Checkout Cart
+
+## Installation
+
+> [!IMPORTANT]
+> You need to have `pnpm` installed to runb this project locally. Go here to install [`pnpm`](https://pnpm.io/installation) 
+
+1. Clone this repository:
+
+   `git clone https://github.com/shaarkr/grocery-cart.git`
+
+2. Navigate into the project directory:
+
+   `cd grocery-cart`
+
+3. Install dependencies:
+
+   `pnpm install`
+
+4. Run the application:
+
+   `pnpm dev`
 
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support For `.vue` Imports in TS
+## Extensions & Profile Settings
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [VS Code - My Profile Settings](./VSCode.code-profile)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Contributing
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT
