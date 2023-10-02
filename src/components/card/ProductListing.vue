@@ -18,6 +18,7 @@
           type="button"
           class="p-1 flex items-center justify-center rounded-full bg-zinc-900 text-white">
           <Icon icon="material-symbols:add" height="16" />
+          <p class="sr-only">Add to Cart</p>
         </button>
       </div>
       <div class="flex flex-col gap-0.5">
